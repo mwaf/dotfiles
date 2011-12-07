@@ -39,6 +39,8 @@ alias gd "git diff -w"
 alias gdh "git diff HEAD -w"
 alias gco "git checkout"
 alias g-- "git checkout --"
+alias gpl "git pull"
+alias gps "git push"
 
 alias s "screen -r"
 alias irc "screen -Urd irc"
