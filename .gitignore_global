@@ -1,6 +1,13 @@
 *~
 .DS_Store
+
+# IDEA
 .idea/
 *.ipr
 *.iws
 *.iml
+
+# ECLIPSE
+*.classpath
+*.project
+*.settings/
