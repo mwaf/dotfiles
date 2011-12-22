@@ -7,6 +7,8 @@ set fignore = (\~)
 set symlinks = ignore
 set nobeep
 
+bindkey "^r" i-search-back
+
 alias .. "cd .."
 alias cdpwd 'cd "`pwd`" && cd ..'
 alias l 'ls -CFlq'
