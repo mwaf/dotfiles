@@ -47,6 +47,7 @@ alias gpl "git pull"
 alias gps "git push"
 alias gpst "git push --tags"
 
+alias createScreen "screen -S \!^ -c $HOME/.screenrc.\!^"
 alias s "screen -r"
 alias irc "screen -Urd irc"
 alias irx "screen -Urx irc"
