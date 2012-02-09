@@ -13,6 +13,7 @@ alias .. "cd .."
 alias cdpwd 'cd "`pwd`" && cd ..'
 alias l 'ls -CFlq'
 alias ll 'ls -CaFlq'
+alias lld 'ls -la | grep ^d'
 alias la "ls -rtl | tail"
 alias laf "ls -1rt | tail -1" #lafile
 
@@ -32,6 +33,7 @@ alias supmod "svn status | grep -v '^\?' > mod ; cat mod"
 alias ss "svn status"
 alias g "git"
 alias gs "git status"
+alias gss "git status -s"
 alias ga "git add"
 alias gc "git commit"
 alias gac "git commit -a"

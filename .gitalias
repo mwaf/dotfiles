@@ -1,3 +1,7 @@
+[color]
+	status = auto
+	branch = auto
+	ui = true
 [alias]
 	b = branch
 	co = checkout
@@ -9,6 +13,7 @@
 	l = log
 	ls = log --stat
 	s = status
+	ss = status -s
 	t = tag
 	pl = pull
 	ps = push
