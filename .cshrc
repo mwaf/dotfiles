@@ -48,6 +48,8 @@ alias g-- "git checkout --"
 alias gpl "git pull"
 alias gps "git push"
 alias gpst "git push --tags"
+alias ginc "git inc"
+alias gout "git out"
 
 alias createScreen "screen -S \!^ -c $HOME/.screenrc.\!^"
 alias s "screen -r"
