@@ -15,6 +15,7 @@
 	s = status
 	ss = status -s
 	t = tag
+	rb = rebase
 	pl = pull
 	ps = push
 	pst = push --tags
