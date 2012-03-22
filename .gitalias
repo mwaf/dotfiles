@@ -17,6 +17,7 @@
 	t = tag
 	rb = rebase
 	m = merge
+	cp = cherry-pick
 	pl = pull
 	ps = push
 	pst = push --tags
@@ -28,3 +29,4 @@
 	lg = !git lg80
  	inc = !git remote update -p; git log --stat ..@{u}
  	out = log --stat  @{u}..
+	pop = stash pop
