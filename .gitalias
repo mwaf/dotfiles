@@ -6,8 +6,9 @@
 	b = branch
 	co = checkout
 	a = add
-	d = diff -w
-	dh = diff HEAD -w
+	d = diff
+	dh = diff HEAD
+	dc = diff --cached
 	c = commit
 	ac = commit -a
 	l = log
