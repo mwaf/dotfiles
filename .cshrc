@@ -58,6 +58,7 @@ alias ginc "git inc"
 alias gout "git out"
 alias gstash "git stash"
 alias gpop "git stash pop"
+alias pekka "git pull"
 
 alias sorsa "source ~/.cshrc"
 alias createScreen "screen -S \!^ -c $HOME/.screenrc.\!^"
