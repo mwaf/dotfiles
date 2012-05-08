@@ -16,6 +16,7 @@ alias ll 'ls -CaFlq'
 alias lld 'ls -la | grep ^d'
 alias la "ls -rtl | tail"
 alias laf "ls -1rt | tail -1" #lafile
+alias lc "ls -1 | wc -l"
 
 alias fail "tail -f"
 alias grip "grep -ir"
