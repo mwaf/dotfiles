@@ -68,4 +68,4 @@ alias irc "screen -Urd irc"
 alias irx "screen -Urx irc"
 
 alias jason "python -mjson.tool"
-
+alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
