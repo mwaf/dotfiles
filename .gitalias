@@ -31,3 +31,4 @@
  	inc = !git remote update -p; git log --stat ..@{u}
  	out = log --stat  @{u}..
 	pop = stash pop
+	r = reset
