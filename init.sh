@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOTFILES="$HOME/dotfiles"
+DOTFILES="$HOME/.dotfiles"
 
 echo "source $DOTFILES/.cshrc" >> $HOME/.cshrc
 cat $DOTFILES/.gitalias >> $HOME/.gitconfig
