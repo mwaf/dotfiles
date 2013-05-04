@@ -20,6 +20,7 @@
 	m = merge
 	cp = cherry-pick
 	pl = pull
+	plr = pull --rebase
 	ps = push
 	pst = push --tags
 	g = grep -i
