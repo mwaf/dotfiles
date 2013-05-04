@@ -17,6 +17,7 @@
 	ss = status -s
 	t = tag
 	rb = rebase
+	rbc = rebase --continue
 	m = merge
 	cp = cherry-pick
 	pl = pull
