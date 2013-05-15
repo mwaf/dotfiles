@@ -2,7 +2,7 @@ Repo for various configuration files.
 
 Installing in fresh environment:
 
-% cd
-% git clone git://github.com/mwaf/dotfiles.git .dotfiles
-% .dotfiles/init.sh
-% source .cshrc
+cd
+git clone git://github.com/mwaf/dotfiles.git .dotfiles
+.dotfiles/init.sh
+source .cshrc
