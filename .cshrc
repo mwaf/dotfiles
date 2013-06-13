@@ -65,7 +65,7 @@ alias gr "git reset"
 alias pekka "git pull"
 
 alias sorsa "source ~/.cshrc"
-alias createScreen "screen -S \!^ -c $HOME/.screenrc.\!^"
+alias cs "screen -S \!^ -c $HOME/.screenrc.\!^"
 alias s "screen -r"
 alias irc "screen -rd irc"
 alias irx "screen -rx irc"
