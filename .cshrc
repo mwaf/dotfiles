@@ -27,6 +27,7 @@ alias nw "emacs -nw"
 alias wn "emacs -nw"
 alias emasc "emacs"
 alias emcas "emacs"
+alias sl "open -a /Applications/Sublime\ Text\ 2.app/"
 
 alias cup "cvs -q update -d"
 alias sup "svn update"
@@ -72,3 +73,10 @@ alias irx "screen -rx irc"
 
 alias jason "python -mjson.tool"
 alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
+
+alias re "rbenv exec"
+alias rer "rbenv exec ruby"
+alias reg "rbenv exec gem"
+alias reb "rbenv exec bundle"
+alias reils "rbenv exec rails"
+

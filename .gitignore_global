@@ -11,3 +11,6 @@
 *.classpath
 *.project
 *.settings/
+
+# rbenv
+.ruby-version
