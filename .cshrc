@@ -1,4 +1,4 @@
-setenv EDITOR "emacs -nw"
+setenv EDITOR "emacs"
 
 set prompt="[%B%m%b:%c3] %n%% "
 set autolist = amibigious
