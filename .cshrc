@@ -79,4 +79,5 @@ alias rer "rbenv exec ruby"
 alias reg "rbenv exec gem"
 alias reb "rbenv exec bundle"
 alias reils "rbenv exec rails"
+alias respec "rbenv exec rspec"
 
