@@ -1,4 +1,7 @@
 setenv EDITOR "emacs"
+# ssh locale issue
+setenv LC_CTYPE en_US.UTF-8
+setenv LC_ALL en_US.UTF-8
 
 set prompt="[%B%m%b:%c3] %n%% "
 set autolist = amibigious
@@ -27,7 +30,7 @@ alias nw "emacs -nw"
 alias wn "emacs -nw"
 alias emasc "emacs"
 alias emcas "emacs"
-alias sl "open -a /Applications/Sublime\ Text\ 2.app/"
+alias sl "open -a /Applications/Sublime\ Text.app/"
 
 alias cup "cvs -q update -d"
 alias sup "svn update"
@@ -68,6 +71,7 @@ alias pekka "git pull"
 alias sorsa "source ~/.cshrc"
 alias cs "screen -S \!^ -c $HOME/.screenrc.\!^"
 alias s "screen -r"
+alias sls "screen -ls"
 alias irc "screen -rd irc"
 alias irx "screen -rx irc"
 
