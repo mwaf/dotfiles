@@ -14,3 +14,5 @@
 
 # rbenv
 .ruby-version
+
+.sass-cache/
