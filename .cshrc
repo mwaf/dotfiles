@@ -66,6 +66,7 @@ alias gout "git out"
 alias gstash "git stash"
 alias gpop "git stash pop"
 alias gr "git reset"
+alias grh "git reset HEAD"
 alias pekka "git pull"
 
 alias sorsa "source ~/.cshrc"
