@@ -10,6 +10,6 @@
 				  indent-tabs-mode nil)))
 
 ;; go mode
-(setq load-path (cons "/usr/share/emacs/go-mode.el/" load-path))
+(add-to-list 'load-path "/usr/local/share/go-mode.el/")
 (require 'go-mode-autoloads)
 (add-hook 'before-save-hook 'gofmt-before-save)
