@@ -71,6 +71,7 @@ alias grh "git reset HEAD"
 alias pekka "git pull"
 
 alias sorsa "source ~/.cshrc"
+alias conn "lsof -i"
 alias cs "screen -S \!^ -c $HOME/.screenrc.\!^"
 alias s "screen -r"
 alias sls "screen -ls"
