@@ -88,8 +88,6 @@ alias reb "rbenv exec bundle"
 alias reils "rbenv exec rails"
 alias respec "rbenv exec rspec"
 
-# /etc/hosts needs setting 'docker' to `boot2docker ip`, i.e. 192.168.59.103
-setenv DOCKER_HOST tcp://docker:2375
 alias d "docker"
 alias dps "docker ps"
 alias drm "docker rm"
