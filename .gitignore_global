@@ -2,11 +2,10 @@
 .DS_Store
 
 # IDEA
-.idea/workspace.xml
-.idea/tasks.xml
+.idea/
 *.ipr
 *.iws
-#*.iml
+*.iml
 
 # ECLIPSE
 *.classpath
