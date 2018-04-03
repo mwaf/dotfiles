@@ -74,9 +74,13 @@ alias pekka "git pull"
 
 alias sorsa "source ~/.cshrc"
 alias conn "lsof -i"
+
 alias cs "screen -S \!^ -c $HOME/.screenrc.\!^"
 alias s "screen -r"
 alias sls "screen -ls"
+alias t "tmux"
+alias tt "tmux attach -t"
+
 alias irc "screen -rd irc"
 alias irx "screen -rx irc"
 
