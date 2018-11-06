@@ -10,6 +10,6 @@
 				  indent-tabs-mode nil)))
 
 ;; go mode
-(add-to-list 'load-path "/usr/local/share/go-mode.el/")
-(require 'go-mode-autoloads)
-(add-hook 'before-save-hook 'gofmt-before-save)
+;(add-to-list 'load-path "/usr/local/share/go-mode.el/")
+;(require 'go-mode-autoloads)
+;(add-hook 'before-save-hook 'gofmt-before-save)
