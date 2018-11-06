@@ -76,12 +76,14 @@ alias s "screen -r"
 alias sls "screen -ls"
 alias t "tmux"
 alias tt "tmux attach -t"
+alias tls "tmux ls"
 
 alias irc "screen -rd irc"
 alias irx "screen -rx irc"
 
 alias jason "python -mjson.tool"
 alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
+alias server "python -m SimpleHTTPServer"
 
 alias re "rbenv exec"
 alias rer "rbenv exec ruby"
