@@ -75,6 +75,7 @@ alias cs "screen -S \!^ -c $HOME/.screenrc.\!^"
 alias s "screen -r"
 alias sls "screen -ls"
 alias t "tmux"
+alias ts "tmux new-session -s"
 alias tt "tmux attach -t"
 alias tls "tmux ls"
 
