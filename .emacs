@@ -1,3 +1,6 @@
+;; 80 is way too old-school, I haven't used a terminal that small in a decade
+(setq-default fill-column 120)
+
 (add-hook 'java-mode-hook
 	  (lambda ()
 	    "Treat Java 1.5 @-style annotations as comments."
