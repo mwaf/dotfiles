@@ -76,6 +76,7 @@ alias s "screen -r"
 alias sls "screen -ls"
 alias t "tmux"
 alias ts "tmux new-session -s"
+alias tf "tmux -f $HOME/.tmux.\!^.conf"
 alias tt "tmux attach -t"
 alias tls "tmux ls"
 
