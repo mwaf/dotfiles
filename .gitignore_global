@@ -12,6 +12,10 @@
 *.project
 *.settings/
 
+# VS CODE (java)
+.classpath
+/bin
+
 # rbenv
 .ruby-version
 
