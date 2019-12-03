@@ -12,6 +12,9 @@ set nobeep
 
 bindkey "^r" i-search-back
 
+# Command line helpers
+alias sorsa "source ~/.cshrc"
+
 alias .. "cd .."
 alias cdpwd 'cd "`pwd`" && cd ..'
 alias l 'ls -CFlq'
@@ -24,14 +27,21 @@ alias lc "ls -1 | wc -l"
 alias fail "tail -f"
 alias grip "grep -ir"
 alias frep "find . -type f | grep -v \.svn | grep -i"
+alias conn "lsof -i"
 
-alias xnw "xemacs -nw"
+alias jason "python -mjson.tool"
+alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
+alias server "python -m SimpleHTTPServer"
+
+
+# Editors
 alias nw "emacs -nw"
 alias wn "emacs -nw"
 alias emasc "emacs"
 alias emcas "emacs"
-alias sl "open -a /Applications/Sublime\ Text.app/"
+alias c "code"
 
+# Git
 alias g "git"
 alias gs "git status"
 alias gss "git status -s"
@@ -66,11 +76,8 @@ alias gpop "git stash pop"
 alias gr "git reset"
 alias grh "git reset HEAD"
 alias grc "git rm --cached"
-alias pekka "git pull"
 
-alias sorsa "source ~/.cshrc"
-alias conn "lsof -i"
-
+# Tmux and Screen
 alias cs "screen -S \!^ -c $HOME/.screenrc.\!^"
 alias s "screen -r"
 alias sls "screen -ls"
@@ -81,13 +88,7 @@ alias tt "tmux attach -t"
 alias tst "tmux new-session -s \!:2 -t \!:1"
 alias tls "tmux ls"
 
-alias irc "screen -rd irc"
-alias irx "screen -rx irc"
-
-alias jason "python -mjson.tool"
-alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
-alias server "python -m SimpleHTTPServer"
-
+# Ruby
 alias re "rbenv exec"
 alias rer "rbenv exec ruby"
 alias reg "rbenv exec gem"
@@ -95,6 +96,7 @@ alias reb "rbenv exec bundle"
 alias reils "rbenv exec rails"
 alias respec "rbenv exec rspec"
 
+# Docker
 alias d "docker"
 alias dps "docker ps"
 alias drm "docker rm"
@@ -106,6 +108,7 @@ alias dc "docker-compose"
 alias ds "docker service"
 alias de "docker exec -it \!^ bash"
 
+# Kubernetes
 alias kc "kubectl"
 alias kcp "kubectl get pods -A"
 alias kcs "kubectl get svc -A"
