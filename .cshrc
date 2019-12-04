@@ -33,13 +33,12 @@ alias jason "python -mjson.tool"
 alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
 alias server "python -m SimpleHTTPServer"
 
-
 # Editors
 alias nw "emacs -nw"
 alias wn "emacs -nw"
 alias emasc "emacs"
 alias emcas "emacs"
-alias c "code"
+alias c "code ."
 
 # Git
 alias g "git"
@@ -114,3 +113,9 @@ alias kcp "kubectl get pods -A"
 alias kcs "kubectl get svc -A"
 alias kcd "kubectl describe pod"
 alias kcl "kubectl logs"
+
+# Yarn
+alias y "yarn"
+alias ys "yarn; yarn start"
+alias yt "yarn test"
+alias ytw "yarn test --watch"
