@@ -104,6 +104,7 @@ alias dr "docker run"
 alias db "docker build"
 alias dsa "docker start \!^ && docker attach \!^"
 alias dc "docker-compose"
+alias dcu "docker-compose up -d"
 alias ds "docker service"
 alias de "docker exec -it \!^ bash"
 
