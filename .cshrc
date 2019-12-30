@@ -32,6 +32,7 @@ alias conn "lsof -i"
 alias jason "python -mjson.tool"
 alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
 alias server "python -m SimpleHTTPServer"
+alias giffpeg "ffmpeg -i \!^ -r 10 -f gif - | gifsicle --optimize=3 > \!^.gif"
 
 # Editors
 alias nw "emacs -nw"
