@@ -29,6 +29,7 @@ alias grip "grep -ir"
 alias frep "find . -type f | grep -v \.svn | grep -i"
 alias conn "lsof -i"
 alias awp "awk '{print "\$"\!^}'"
+alias rq "R -q --no-save"
 
 alias jason "python -mjson.tool"
 alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
