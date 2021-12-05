@@ -132,3 +132,7 @@ alias y "yarn"
 alias ys "yarn; yarn start"
 alias yt "yarn test"
 alias ytw "yarn test --watch"
+
+alias p "pnpm"
+alias prs "pnpm run serve"
+alias prl "pnpm run lint"
