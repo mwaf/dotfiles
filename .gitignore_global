@@ -14,7 +14,8 @@
 
 # VS CODE (java)
 .classpath
-/bin
+bin
+.vscode
 
 # rbenv
 .ruby-version
