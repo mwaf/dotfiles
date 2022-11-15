@@ -81,6 +81,11 @@ alias gpop "git stash pop"
 alias gr "git reset"
 alias grh "git reset HEAD"
 alias grc "git rm --cached"
+alias gw "git worktree"
+alias gwl "git worktree list"
+alias gwa "git worktree add ../\!^ && cd ../\!^"
+alias gwab "git worktree add ../\!^ -b \!^ && cd ../\!^"
+alias gwrm "git worktree remove"
 
 # Tmux and Screen
 alias cs "screen -S \!^ -c $HOME/.screenrc.\!^"
