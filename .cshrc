@@ -142,3 +142,7 @@ alias ytw "yarn test --watch"
 alias p "pnpm"
 alias prs "pnpm run serve"
 alias prl "pnpm run lint"
+
+# Terraform
+alias tf "terraform"
+alias tfv "terraform validate"
