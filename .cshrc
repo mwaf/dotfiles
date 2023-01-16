@@ -33,6 +33,7 @@ alias awp "awk '{print "\$"\!^}'"
 alias rq "R -q --no-save"
 
 alias jason "python -mjson.tool"
+alias jwt 'jq -R '\''split(".") | .[1] | @base64d | fromjson'\'
 alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
 alias server "python -m SimpleHTTPServer"
 alias giffpeg "ffmpeg -i \!^ -r 10 -f gif - | gifsicle --optimize=3 > \!^.gif"
