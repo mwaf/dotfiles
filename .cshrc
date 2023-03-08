@@ -137,6 +137,8 @@ alias kcl "kubectl logs"
 # Yarn
 alias y "yarn"
 alias ys "yarn; yarn start"
+alias ysd "yarn; yarn start:dev"
+alias yd "yarn; yarn dev"
 alias yt "yarn test"
 alias ytw "yarn test --watch"
 
