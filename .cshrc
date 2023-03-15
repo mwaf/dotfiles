@@ -26,7 +26,7 @@ alias lc "ls -1 | wc -l"
 
 alias fail "tail -f"
 alias grip "grep -ir"
-alias frep "find . -type f | grep -v \.svn | grep -i"
+alias frep "find . -type f | grep -v \.svn | grep -v node_modules | grep -i"
 alias drep "find . -type d | grep -i "
 alias conn "lsof -i"
 alias awp "awk '{print "\$"\!^}'"
