@@ -31,6 +31,7 @@ alias drep "find . -type d | grep -i "
 alias conn "lsof -i"
 alias awp "awk '{print "\$"\!^}'"
 alias rq "R -q --no-save"
+alias u 'units "\!:1 \!:2" \!:3 | head -1 | awp 2'
 
 alias jason "python -mjson.tool"
 alias jwt 'jq -R '\''split(".") | .[1] | @base64d | fromjson'\'
