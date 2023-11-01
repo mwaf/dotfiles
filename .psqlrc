@@ -1,0 +1,3 @@
+\set HISTFILE ~/.psql_history_ :DBNAME _ :PORT
+\set HISTSIZE 10000
+\set HISTCONTROL ignorespace
