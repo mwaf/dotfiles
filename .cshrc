@@ -90,6 +90,10 @@ alias gwl "git worktree list"
 alias gwa "git worktree add ../\!^ && cd ../\!^"
 alias gwab "git worktree add ../\!^ -b \!^ && cd ../\!^"
 alias gwrm "git worktree remove"
+alias gbs "git bisect start"
+alias gbb "git bisect bad"
+alias gbg "git bisect good"
+alias gbr "git bisect reset"
 
 # Tmux and Screen
 alias cs "screen -S \!^ -c $HOME/.screenrc.\!^"
