@@ -45,6 +45,8 @@ alias wn "emacs -nw"
 alias emasc "emacs"
 alias emcas "emacs"
 alias c "code ."
+alias nv "nvim"
+alias v "nvim ."
 
 # Git
 alias g "git"
