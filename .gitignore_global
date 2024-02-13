@@ -10,6 +10,7 @@
 *.ipr
 *.iws
 *.iml
+.fleet/
 
 # ECLIPSE
 *.classpath

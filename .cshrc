@@ -156,3 +156,8 @@ alias prl "pnpm run lint"
 # Terraform
 alias tf "terraform"
 alias tfv "terraform validate"
+
+# mvn/gradle
+alias mt "mvn test -Dtest=\!^"
+alias mti "mvn integration-test -Dit.test=\!^"
+alias grt "gradle test --tests"
