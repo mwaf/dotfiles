@@ -35,7 +35,7 @@ alias u 'units "\!:1 \!:2" \!:3 | head -1 | awp 2'
 
 alias jason "python -mjson.tool"
 alias jwt 'jq -R '\''split(".") | .[1] | @base64d | fromjson'\'
-alias jf "jq . \!^ | sponge \!^"
+alias jf "jq . \!^ > /dev/null && jq . \!^ | sponge \!^"
 alias jsc "/System/Library/Frameworks/JavaScriptCore.framework/Resources/jsc"
 alias server "python -m SimpleHTTPServer"
 alias giffpeg "ffmpeg -i \!^ -r 10 -f gif - | gifsicle --optimize=3 > \!^.gif"
