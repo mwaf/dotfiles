@@ -141,7 +141,7 @@ alias kcp "kubectl get pods -A"
 alias kcs "kubectl get svc -A"
 alias kcd "kubectl describe pod"
 alias kcl "kubectl logs"
-alias kce "kubectl exec -it \!:1 -- /bin/bash"
+alias kce "kubectl exec -it \!:1 -- /bin/sh"
 alias kca "kubectl apply -f "
 
 # Yarn
