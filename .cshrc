@@ -48,6 +48,7 @@ alias emcas "emacs"
 alias c "code ."
 alias nv "nvim"
 alias v "nvim ."
+alias z "zed ."
 
 # Git
 alias g "git"
